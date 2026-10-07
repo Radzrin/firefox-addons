@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 3,
+  "name": "2chanImgViewer",
+  "version": "1.0",
+
+  "description": "will autodisplay images on 2ch.sc",
+
+  "icons": {
+  "48": "icons/reisen.png",
+  "96": "icons/reisen.png"
+},
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.2ch.sc/*","https://*.2chan.net/*","https://4rchive.org/*","https://*.5ch.net/*"],
+      "js": ["imgviewer.js"]
+    }
+  ]
+
+}
