@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "loft site",
+  "version": "1.0",
+
+  "description": "legit just redirects me to th right page",
+
+  "content_scripts": [
+    {
+      "matches": ["https://uls.lofter.com/?h5url=*"],
+      "js": ["golofter.js"]
+    }
+  ]
+
+}

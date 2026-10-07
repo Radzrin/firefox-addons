@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "loft images",
+  "version": "1.0",
+
+  "description": "legit just redirects me to th right page",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.lf127.net/img/*"],
+      "js": ["hq.js"]
+    }
+  ]
+
+}
